@@ -1,9 +1,11 @@
 # Cyber Home Lab: Microsoft Sentinel SOC Project (2026)
 Cloud SOC + Threat Detection Lab | Azure + Sentinel
 
+
 ## 📌 Overview
 This project is a complete, cloud-based **Security Operations Center (SOC) lab** built using **Microsoft Azure** and **Microsoft Sentinel**.  
 The goal was to deploy a Windows virtual machine, expose it to the internet as a honeypot, ingest real attacker traffic, and analyze global brute-force attempts using Sentinel’s SIEM capabilities.
+
 
 This lab demonstrates hands-on experience with:
 - Cloud security architecture  
@@ -11,7 +13,8 @@ This lab demonstrates hands-on experience with:
 - KQL querying  
 - Threat detection  
 - Log enrichment  
-- Dashboard and workbook creation  
+- Dashboard and workbook creation
+  
 
 ## 🎯 Objectives
 - Deploy a public-facing VM to attract real-world brute-force attacks  
@@ -20,7 +23,8 @@ This lab demonstrates hands-on experience with:
 - Query attacker activity using Kusto Query Language (KQL)  
 - Enrich logs with geolocation data  
 - Build a real-time attack map showing global threat activity  
-- Demonstrate SOC workflows such as monitoring, triage, and incident creation  
+- Demonstrate SOC workflows such as monitoring, triage, and incident creation
+  
 
 ## 🏗️ Architecture
 Azure VM (Windows) → Log Analytics Workspace → Microsoft Sentinel → Workbooks & Dashboards
@@ -41,14 +45,16 @@ Azure VM (Windows) → Log Analytics Workspace → Microsoft Sentinel → Workbo
 5. Queried logs with KQL to extract failed login attempts and attacker IPs  
 6. Uploaded geolocation data to enrich SIEM logs  
 7. Built a Sentinel attack map to visualize global brute-force attempts  
-8. Explored incident creation and SOC-style triage workflows  
+8. Explored incident creation and SOC-style triage workflows
+   
 
 ## 📊 Key Results
 - Captured thousands of real-world brute-force login attempts  
 - Identified attacker origins using geolocation enrichment  
 - Built dashboards showing global threat patterns  
 - Demonstrated hands-on SIEM operations and cloud security fundamentals  
-- Created a portfolio-ready SOC project aligned with entry-level cybersecurity roles  
+- Created a portfolio-ready SOC project aligned with entry-level cybersecurity roles
+  
 
 ## 🧠 Skills Demonstrated
 - Cloud Security (Azure)  
@@ -56,7 +62,8 @@ Azure VM (Windows) → Log Analytics Workspace → Microsoft Sentinel → Workbo
 - Threat Detection & Log Analysis  
 - KQL Querying  
 - Dashboard & Workbook Development  
-- Incident Response Fundamentals  
+- Incident Response Fundamentals
+  
 
 ## 📁 Repository Structure
 /sentinel-home-lab
@@ -69,18 +76,17 @@ Azure VM (Windows) → Log Analytics Workspace → Microsoft Sentinel → Workbo
 
 ## 📸 Screenshots (Add your own)
 ### 1. Log Analytics Query Results
-Shows KQL query output from Azure Log Analytics workspace (`LAW‑SOC‑Lab‑5000`), filtering failed login attempts (EventID 4625) and enriching with geolocation data.  
-![Azure Log Analytics Query Results](images/azure-log-query.png)
+![Azure Log Analytics Query Results – KQL output showing failed logins and geolocation enrichment](images/azure-log-query.png)
 ### 2. Windows VM Attack Map
-Displays global attack visualization from Microsoft Sentinel workbook, highlighting top sources (South Korea, Germany, U.S., South Africa, India, Belgium).  
-![Windows VM Attack Map](images/attack-map.png)
+![Windows VM Attack Map – Sentinel workbook visualizing global brute-force attempts](images/attack-map.png)
 
 
 ## 🔗 Future Enhancements
 - Add automated alert rules  
 - Integrate Azure Defender  
 - Build custom detection rules  
-- Add incident automation with Logic Apps  
+- Add incident automation with Logic Apps
+  
 
 ## 🙌 Acknowledgments
 Inspired by hands-on SOC workflows and cloud security best practices.
