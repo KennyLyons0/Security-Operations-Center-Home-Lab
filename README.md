@@ -1,4 +1,4 @@
-# Cyber Home Lab: Microsoft Sentinel SOC Project (2025)
+# Cyber Home Lab: Microsoft Sentinel SOC Project (2026)
 Cloud SOC + Threat Detection Lab | Azure + Sentinel
 
 ## 📌 Overview
