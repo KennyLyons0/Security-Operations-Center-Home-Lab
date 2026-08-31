@@ -74,10 +74,10 @@ Azure VM (Windows) → Log Analytics Workspace → Microsoft Sentinel → Workbo
 │ geolocation-data/
 │ notes/
 
-## 📸 Screenshots (Add your own)
-### 1. Log Analytics Query Results
+## 📸 Screenshots 
+### 1. Log Analytics Query Results- Shows KQL query output from Azure Log Analytics workspace (`LAW‑SOC‑Lab‑5000`), filtering failed login attempts and enriching with geolocation data.
 ![Azure Log Analytics Query Results – KQL output showing failed logins and geolocation enrichment](images/azure-log-query.png)
-### 2. Windows VM Attack Map
+### 2. Windows VM Attack Map- Displays global attack visualization from Microsoft Sentinel workbook, highlighting top sources (South Korea, Germany, U.S., South Africa, India, Belgium).
 ![Windows VM Attack Map – Sentinel workbook visualizing global brute-force attempts](images/attack-map.png)
 
 
