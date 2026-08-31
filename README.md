@@ -66,13 +66,15 @@ Azure VM (Windows) → Log Analytics Workspace → Microsoft Sentinel → Workbo
   
 
 ## 📁 Repository Structure
-/sentinel-home-lab
+/Security-Operations-Center-Home-Lab
 │ README.md
-│ architecture.png
-│ attack-map-screenshots/
-│ kql-queries/
-│ geolocation-data/
-│ notes/
+│ images/
+│ ├── azure-log-query.png
+│ └── attack-map.png
+│ kql-queries/        ← (optional future folder)
+│ geolocation-data/   ← (optional future folder)
+│ notes/              ← (optional future folder)
+> This structure organizes all artifacts used in the SOC lab, including screenshots, queries, enrichment data, and documentation.
 
 ## 📸 Screenshots 
 ### 1. Log Analytics Query Results- Shows KQL query output from Azure Log Analytics workspace (`LAW‑SOC‑Lab‑5000`), filtering failed login attempts and enriching with geolocation data.
